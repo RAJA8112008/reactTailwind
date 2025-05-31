@@ -1,9 +1,15 @@
-import React from 'react';
+import data from './main'
 import './App.css'
+import Tours from './components/Tours';
+
 const App=()=> {
-  return (
-    
-   <div>Plan with Love</div>
+
+const[tours,settours]=useState(main);
+
+  return ( 
+   <div>
+    <Tour tours={tours}></Tour>
+    </div>
   
     )
 }
