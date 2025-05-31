@@ -9,6 +9,7 @@ function App() {
     function incrementHandler(){
          setCount(count+1);
     }
+    
     function resetHandler(){
       setCount(0);
     }
